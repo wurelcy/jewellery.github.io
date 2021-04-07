@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="jewellery, silver, gold, ring, necklaces, earrings, stones, chokers">
+    <meta name="description" content="Jewellery online shop">
+    <title>CH Jewellery</title>
+    <link rel="preload" href="fonts/poppins-regular.woff2" as="font">
+    <link rel="preload" href="fonts/cormorantgaramond-bold.woff2" as="font">
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>
+  <body class="page-body">
+    <header class="header header--closed header--nojs header--product">
+      <div class="header__wrapper">
+        <button class="header__toggle" type="button" aria-label="Open menu">
+          <span></span>
+        </button>
+        <div class="header__search">
+          <svg width="14" height="14">
+            <use xlink:href="#icon-search"></use>
+          </svg>
+          <label for="search" class="visually-hidden">What are looking for?</label>
+          <input type="search" placeholder="Type here to search" id="search">
+        </div>
+        <a href="index.html" class="header__logo" aria-label="Company logo">
+          <svg aria-label="Logo" width="66" height="66">
+            <use xlink:href="#icon-logo"></use>
+          </svg>
+        </a>
+        <a href="login.html" class="header__login" aria-label="Open login form">Login</a>
+        <a href="#" class="header__cart" aria-label="Go to cart page">
+          <svg aria-label="open cart" width="18" height="16">
+            <use xlink:href="#icon-cart"></use>
+          </svg>
+          <span>Cart 0</span>
+        </a>
+      </div>
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="#" aria-label="Show new items">What's new</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" aria-label="Show chokers">Chokers</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" aria-label="Show necklaces">Necklaces</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" aria-label="Show rings">Rings</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" aria-label="Show earrings">Earrings</a>
+          </li>
+        </ul>
+        <ul class="main-nav__mobile">
+          <li>
+            <a class="main-nav__link" href="#" aria-label="Read about CH Jewellery">About CH</a>
+          </li>
+          <li>
+            <a class="main-nav__link" href="#" aria-label="Information about our stores and opening hours">Stores & Hours</a>
+          </li>
+          <li>
+            <a class="main-nav__link" href="#" aria-label="Show contscts">Contact Us</a>
+          </li>
+        </ul>
+        <a href="login.html" class="main-nav__login" aria-label="Open login form">Login</a>
+      </nav>
+      <div class="overlay overlay--hidden"></div>
+    </header>
+    <div class="page-body__overlay"></div>
+    <main class="product-page">
+      <h1 class="visually-hidden">The main page of CH jewellery</h1>
+        <section class="product">
+          <div class="container">
+          <ul class="product__photos">
+            <li class="product__img-small">
+              <picture>
+                <source type="image/webp" srcset="img/gold-necklace-for-women@1x.webp 1x, img/gold-necklace-for-women@2x.webp 2x">
+                <!-- 1х: 100px; 2x: 200px -->
+                <img src="img/gold-necklace-for-women@1x.jpg" srcset="img/gold-necklace-for-women@2x.jpg 2x" alt="Gold necklace for women" width="100" height="125">
+              </picture>
+              <picture>
+                <source type="image/webp" srcset="img/pretty-gold-necklace@1x.webp 1x, img/pretty-gold-necklace@2x.webp 2x">
+                <!-- 1х: 100px; 2x: 200px -->
+                <img src="img/pretty-gold-necklace@1x.jpg" srcset="img/pretty-gold-necklace@2x.jpg 2x" alt="Pretty gold necklace" width="100" height="125">
+              </picture>
+              <picture>
+                <source type="image/webp" srcset="img/womens-necklace-set@1x.webp 1x, img/womens-necklace-set@2x.webp 2x">
+                <!-- 1х: 100px; 2x: 200px -->
+                <img src="img/womens-necklace-set@1x.jpg" srcset="img/womens-necklace-set@2x.jpg 2x" alt="Women's necklace set" width="100" height="125">
+              </picture>
+            </li>
+            <li class="product__img-large">
+              <picture>
+                <source type="image/webp" srcset="img/necklace-detail@1x.webp 1x, img/necklace-detail@2x.webp 2x">
+                <!-- 1х: 470px; 2x: 940px -->
+                <img src="imgnecklace-detail@1x.jpg" srcset="img/necklace-detail@2x.jpg 2x" alt="Necklace detail" width="470" height="435">
+              </picture>
+            </li>
+          </ul>
+          <div class="product__info">
+            <h2>Gold Necklace</h2>
+            <p>$ 115</p>
+            <ul class="product__tabs">
+              <li>
+                <a href="#" class="product__tab product__tab--active" aria-label="Open product description">Description</a>
+              </li>
+              <li>
+                <a href="#" class="product__tab" aria-label="Read additional info">Additional info</a>
+              </li>
+            </ul>
+            <ul class="product__specs">
+              <li class="product__spec">
+                <span>Metal type</span>
+                <span>Gold 585</span>
+              </li>
+              <li class="product__spec">
+                <span>Stone</span>
+                <span>Turquoise</span>
+              </li>
+              <li class="product__spec">
+                <span>Size</span>
+                <span>18” / 20”</span>
+              </li>
+            </ul>
+            <a href="cart.html" class="product__add-to-cart" aria-label="Open add to cart form">Add to cart</a>
+            <ul class="product__conditions">
+              <li class="product__condition">
+                <a href="#" aria-label="Read about return conditions">14 Day Returns</a>
+              </li>
+              <li class="product__condition">
+                <a href="#" aria-label="Read about warranty">2-Year Warranty</a>
+              </li>
+              <li class="product__condition">
+                <a href="#" aria-label="Read about free shipping conditions">Free Shipping</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="slider slider--nojs">
+        <h2 class="visually-hidden">Relative items</h2>
+          <div class="slider__title slider__title--product-page">
+            <p>You May Also Like</p>
+            <a href="catalog.html" class="slider__link" aria-label="Go to catalog page">Shop Now</a>
+            <button class="slider__nav">
+              <svg width="29" height="9">
+                <use xlink:href="#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button class="slider__nav">
+              <svg width="29" height="9">
+                <use xlink:href="#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+          <ul class="slider__list">
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/purple-gemstone-necklace@1x.webp 1x, img/purple-gemstone-necklace@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/purple-gemstone-necklace@1x.jpg" srcset="img/purple-gemstone-necklace@2x.jpg 2x" alt="Necklace with amethyst" width="270" height="284">
+                </picture>
+                <h3>Necklace with amethyst</h3>
+                <p>$ 145</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/layered-choker-necklace@1x.webp 1x, img/layered-choker-necklace@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/layered-choker-necklace@1x.jpg" srcset="img/layered-choker-necklace@2x.jpg 2x" alt="Layered сhoker" width="270" height="284">
+                </picture>
+                <h3>Layered сhoker</h3>
+                <p>$ 115</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/dainty-gold-necklace@1x.webp 1x, img/dainty-gold-necklace@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/dainty-gold-necklace@1x.jpg" srcset="img/dainty-gold-necklace@2x.jpg 2x" alt="Gold chain" width="270" height="284">
+                </picture>
+                <h3>Gold chain</h3>
+                <p>$ 215</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/galaxy-earrings@1x.webp 1x, img/galaxy-earrings@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/galaxy-earrings@1x.jpg" srcset="img/galaxy-earrings@2x.jpg 2x" alt="Galaxy earrings" width="270" height="284">
+                </picture>
+                <h3>Galaxy earrings</h3>
+                <p>$ 95</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/blue-gemstone-pendant@1x.webp 1x, img/blue-gemstone-pendant@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/blue-gemstone-pendant@1x.jpg" srcset="img/blue-gemstone-pendant@2x.jpg 2x" alt="Blue gemstone pendant" width="270" height="284">
+                </picture>
+                <h3>Blue gemstone pendant</h3>
+                <p>$ 105</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/black-leather-choker-necklace@1x.webp 1x, img/black-leather-choker-necklace@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/black-leather-choker-necklace@1x.jpg" srcset="img/black-leather-choker-necklace@2x.jpg 2x" alt="Black leather choker" width="270" height="284">
+                </picture>
+                <h3>Black leather choker</h3>
+                <p>$ 85</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/threader-necklace-closeup@1x.webp 1x, img/threader-necklace-closeup@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/threader-necklace-closeup@1x.jpg" srcset="img/threader-necklace-closeup@2x.jpg 2x" alt="Threader necklace" width="270" height="284">
+                </picture>
+                <h3>Threader necklace</h3>
+                <p>$ 115</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/double-pearl-earrings@1x.webp 1x, img/double-pearl-earrings@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/double-pearl-earrings@1x.jpg" srcset="img/double-pearl-earrings@2x.jpg 2x" alt="Double pearl earrings" width="270" height="284">
+                </picture>
+                <h3>Double pearl earrings</h3>
+                <p>$ 115</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/gold-layered-necklace@1x.webp 1x, img/gold-layered-necklace@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/gold-layered-necklace@1x.jpg" srcset="img/gold-layered-necklace@2x.jpg 2x" alt="Gold layered necklace" width="270" height="284">
+                </picture>
+                <h3>Gold layered necklace</h3>
+                <p>$ 155</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/black-choker-gold-bead@1x.webp 1x, img/black-choker-gold-bead@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/black-choker-gold-bead@1x.jpg" srcset="img/black-choker-gold-bead@2x.jpg 2x" alt="Choker with gold bead" width="270" height="284">
+                </picture>
+                <h3>Choker with gold bead</h3>
+                <p>$ 55</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/origami-crane-necklace@1x.webp 1x, img/origami-crane-necklace@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/origami-crane-necklace@1x.jpg" srcset="img/origami-crane-necklace@2x.jpg 2x" alt="Origami crane necklace" width="270" height="284">
+                </picture>
+                <h3>Origami crane necklace</h3>
+                <p>$ 105</p>
+              </a>
+            </li>
+            <li class="slider__item">
+              <a href="product.html" aria-label="Go to product page">
+                <picture>
+                  <source type="image/webp" srcset="img/marble-earrings@1x.webp 1x, img/marble-earrings@2x.webp 2x">
+                  <!-- 1х: 270px; 2x: 540px -->
+                  <img src="img/marble-earrings@1x.jpg" srcset="img/marble-earrings@2x.jpg 2x" alt="Marble earrings" width="270" height="284">
+                </picture>
+                <h3>Marble earrings</h3>
+                <p>$ 95</p>
+              </a>
+            </li>
+          </ul>
+          <ul class="slider__pagination">
+            <li>
+              <a href="#" class="slider__slide slider__slide--active" aria-label="First page">1</a>
+            </li>
+            <li>
+              <a href="#" class="slider__slide" aria-label="Second page">2</a>
+            </li>
+            <li>
+              <a href="#" class="slider__slide" aria-label="Third page">3</a>
+            </li>
+            <li>
+              <a href="#" class="slider__slide" aria-label="Second page">4</a>
+            </li>
+            <li>
+              <a href="#" class="slider__slide" aria-label="Third page">5</a>
+            </li>
+            <li>
+              <a href="#" class="slider__slide" aria-label="Second page">6</a>
+            </li>
+          </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <section class="mail">
+          <h2 class="visually-hidden">Subscribe to emails</h2>
+          <p>The good stuff in your inbox</p>
+          <p>News and updates from CH. No spam, we promise.</p>
+          <form action="https://echo.htmlacademy.ru" method="POST">
+            <label for="email" class="visually-hidden">Enter your email for receiving our newsletter</label>
+            <input type="email" placeholder="Your E-mail" id="email">
+            <button type="submit">
+              <span>Sign Up</span>
+              <svg width="14" height="14">
+                <use xlink:href="#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </form>
+        </section>
+        <section class="info">
+          <h2 class="visually-hidden">General info</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" aria-label="Info about ordering & payment">Ordering & Payment</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" aria-label="Info about terms & conditions">Terms & Conditions</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" aria-label="Info about returns & exchanges">Returns & Exchanges</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" aria-label="Info about delivery">Delivery</a>
+            </li>
+          </ul>
+        </section>
+        <section class="about">
+          <h2 class="visually-hidden">About CH</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" aria-label="Info about CH jewellery">About CH</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" aria-label="Info about stores & opening hours">Stores & Hours</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" aria-label="Info about jobs">Jobs</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" aria-label="Our contacts">Contact Us</a>
+            </li>
+          </ul>
+        </section>
+        <section class="social">
+          <h2 class="visually-hidden">Socials</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="social__link" aria-label="CH's Facebook">
+                <svg width="15" height="13">
+                  <use xlink:href="#icon-fb"></use>
+                </svg>
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="social__link" aria-label="CH's Instagram">
+                <svg width="15" height="13">
+                  <use xlink:href="#icon-inst"></use>
+                </svg>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="social__link" aria-label="CH's Pinterest">
+                <svg width="15" height="13">
+                  <use xlink:href="#icon-pinterest"></use>
+                </svg>
+                <span>Pinterest</span>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="social__link" aria-label="CH's Twitter">
+                <svg width="15" height="13">
+                  <use xlink:href="#icon-twitter"></use>
+                </svg>
+                <span>Twitter</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+
+    <section class="login-popup login-popup--closed">
+      <div class="login-popup__upper-wrapper">
+        <a href="index.html" aria-label="Return back" tabindex="2">
+        </a>
+      </div>
+      <h2 class="visually-hidden">Log In form</h2>
+      <p>Log In</p>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="login-popup__email">
+          <label for="email-popup" class="visually-hidden">Имя</label>
+          <input type="email" placeholder="Your E-mail" name="user-email-popup" id="email-popup" required tabindex="1">
+        </div>
+        <div class="login-popup__password">
+          <label for="password-popup" class="visually-hidden">Password</label>
+          <input id="password-popup" type="password" placeholder="Password" name="user-password-popup" minlength="6" required tabindex="1">
+        </div>
+        <a href="#" class="login-popup__forget" aria-label="Reset password" tabindex="1">Forgot your password?</a>
+        <button type="submit" class="login-popup__submit" tabindex="1">Log In</button>
+        <div class="login-popup__registration">
+          <p>Don’t have an account?</p>
+          <a href="#" aria-label="Registration" tabindex="1">Sign up</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="cart-popup cart-popup--closed">
+      <a href="index.html" class="cart-popup__close"></a>
+      <h2 class="visually-hidden">Added to cart popup</h2>
+      <p>The item was added to your cart</p>
+      <div class="cart-popup__item">
+        <picture>
+          <source type="image/webp" srcset="img/necklace-detail@1x.webp 1x, img/necklace-detail@2x.webp 2x">
+          <!-- 1х: 84px; 2x: 168px -->
+          <img src="img/necklace-detail@1x.jpg" srcset="img/necklace-detail@2x.jpg 2x" alt="Item image" width="84" height="79">
+        </picture>
+        <div class="cart-popup__details">
+          <p>Gold Necklace</p>
+          <p>$ <span>115</span></p>
+        </div>
+        <div class="cart-popup__quanity">
+          <button class="cart-popup__increase"></button>
+          <span>1</span>
+          <button class="cart-popup__derease"></button>
+        </div>
+      </div>
+      <div class="cart-popup__summary">
+        <p>You have <span>1</span> item in the cart</p>
+        <p>Cart subtotal: $ <span>115</span></p>
+      </div>
+      <div class="cart-popup__links">
+        <a href="product.html" class="cart-popup__continue cart-popup__link">Continue shopping</a>
+        <a href="#" class="cart-popup__to-cart cart-popup__link">Checkout</a>
+      </div>
+    </section>
+
+    <template class="arrow-left">
+      <svg width="29" height="9">
+        <use xlink:href="#icon-arrow-left"></use>
+      </svg>
+    </template>
+
+    <template class="arrow-right">
+      <svg width="29" height="9">
+        <use xlink:href="#icon-arrow-right"></use>
+      </svg>
+    </template>
+
+    <svg width="0" height="0" style="display: none;">
+      <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 10" id="icon-arrow">
+        <path d="M16 9L8.5 1 1 9" stroke="#A87B62"></path>
+      </symbol>
+      <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 11" id="icon-arrow-left">
+        <path d="M30 5.5H1m0 0L6.486 10M1 5.5L6.486 1"></path>
+      </symbol>
+      <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 11" id="icon-arrow-right">
+        <path d="M0 5.5h29m0 0L23.514 1M29 5.5L23.514 10"></path>
+      </symbol>
+      <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18" id="icon-cart">
+        <path d="M14 5a4 4 0 11-8 0M1 1h18v16H1V1z" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 15" id="icon-fb">
+        <path
+          d="M5.333 8.625h1.905l.762-3H5.333v-1.5c0-.772 0-1.5 1.524-1.5H8V.105A21.797 21.797 0 005.823 0C3.755 0 2.286 1.243 2.286 3.525v2.1H0v3h2.286V15h3.047V8.625z"
+        ></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" id="icon-inst">
+        <path
+          d="M7.5 0c2.038 0 2.292.007 3.091.045.8.038 1.343.163 1.822.349.495.19.912.448 1.329.864.38.375.676.829.864 1.33.185.477.312 1.022.349 1.82.035.8.045 1.054.045 3.092 0 2.038-.008 2.292-.045 3.091-.037.8-.164 1.343-.349 1.822-.188.5-.483.954-.864 1.329a3.687 3.687 0 01-1.33.864c-.477.185-1.022.312-1.82.349-.8.035-1.054.045-3.092.045-2.038 0-2.292-.008-3.091-.045-.8-.037-1.343-.164-1.821-.349a3.668 3.668 0 01-1.33-.864 3.678 3.678 0 01-.864-1.33c-.186-.477-.311-1.022-.349-1.82C.01 9.791 0 9.537 0 7.5c0-2.038.007-2.292.045-3.091.038-.8.163-1.343.349-1.821.187-.501.483-.955.864-1.33a3.673 3.673 0 011.33-.864C3.066.208 3.608.083 4.407.045 5.208.01 5.463 0 7.5 0zm0 3.75a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zm4.875-.188a.938.938 0 10-1.875 0 .938.938 0 001.875 0zM7.5 5.25a2.25 2.25 0 110 4.5 2.25 2.25 0 010-4.5z"
+          ></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 66" id="icon-logo">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M10.126 10.12L33 .643l22.874 9.475L65.35 33l-9.477 22.88L33 65.357 10.126 55.88.65 33l9.477-22.88zM33 0l23.334 9.665L66 33l-9.666 23.334L33 66 9.665 56.334 0 33 9.665 9.665 33 0zm-4.433 26.417c-.619-.129-1.382-.193-2.29-.193-1.483 0-2.822.285-4.017.856-1.18.571-2.11 1.377-2.786 2.419-.677 1.027-1.016 2.212-1.016 3.553 0 1.385.332 2.612.994 3.682.662 1.07 1.584 1.905 2.765 2.505 1.195.585 2.549.877 4.06.877.85 0 1.599-.071 2.247-.214a9.692 9.692 0 002.117-.75.633.633 0 00.173-.149c.028-.043.05-.15.064-.321l.216-2.355c0-.042-.05-.064-.15-.064-.073 0-.109.014-.109.043-.389 1.17-.95 2.04-1.685 2.611-.734.571-1.692.857-2.872.857a5.68 5.68 0 01-3.09-.9c-.935-.599-1.684-1.412-2.246-2.44-.547-1.041-.82-2.183-.82-3.424 0-1.3.252-2.434.756-3.404.504-.985 1.216-1.74 2.138-2.269.922-.528 1.987-.792 3.197-.792 2.304 0 3.787 1.192 4.45 3.575.014.043.057.064.129.064.086-.014.13-.043.13-.086l-.26-2.547a2.893 2.893 0 00-.064-.32c-.015-.044-.072-.094-.173-.15a7.457 7.457 0 00-1.858-.664zm19.3 13.292c0-.085-.02-.128-.064-.128-.547 0-.95-.036-1.21-.107-.259-.071-.439-.207-.54-.407-.086-.214-.13-.535-.13-.963v-9.91c0-.429.044-.743.13-.942.101-.2.281-.336.54-.407.26-.086.663-.129 1.21-.129.043 0 .065-.043.065-.128 0-.086-.022-.129-.065-.129l-1.058.022c-.605.028-1.102.043-1.49.043-.433 0-.966-.015-1.6-.043l-1.014-.022c-.044 0-.065.043-.065.129 0 .085.021.128.065.128.561 0 .972.043 1.23.129.26.085.433.235.52.45.1.2.15.513.15.941v4.41h-8.294v-4.41c0-.428.043-.742.13-.942.1-.214.28-.364.54-.45.273-.085.684-.128 1.23-.128.03 0 .044-.043.044-.128 0-.086-.014-.129-.043-.129l-1.037.022c-.634.028-1.16.043-1.577.043-.36 0-.842-.015-1.447-.043l-1.102-.022c-.028 0-.043.043-.043.129 0 .085.015.128.043.128.548 0 .95.043 1.21.129.26.071.432.207.518.407.101.2.152.513.152.941v9.911c0 .428-.05.75-.152.963-.086.2-.266.336-.54.407-.259.071-.662.107-1.21.107-.028 0-.042.043-.042.128 0 .086.014.129.043.129.46 0 .82-.007 1.08-.022l1.49-.021 1.555.021c.26.015.612.022 1.059.022.029 0 .043-.043.043-.129 0-.085-.014-.128-.043-.128-.562 0-.972-.036-1.231-.107-.26-.071-.44-.207-.54-.407-.087-.214-.13-.535-.13-.963v-5.009h8.294v5.009c0 .428-.05.75-.15.963-.087.2-.26.336-.52.407-.258.071-.669.107-1.23.107-.044 0-.065.043-.065.128 0 .086.021.129.065.129.432 0 .77-.007 1.015-.022l1.598-.021 1.49.021c.26.015.613.022 1.059.022.043 0 .065-.043.065-.129z"></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15" id="icon-pinterest">
+        <path
+          d="M8.525.07a7.502 7.502 0 00-4.026 14.307 5.818 5.818 0 01.122-1.72c.139-.629.972-4.097.972-4.097a2.804 2.804 0 01-.243-1.183c0-1.113.643-1.944 1.442-1.944A1 1 0 017.8 6.563c0 .676-.434 1.697-.66 2.656a1.158 1.158 0 001.18 1.442c1.424 0 2.378-1.823 2.378-3.976 0-1.65-1.092-2.886-3.107-2.886a3.56 3.56 0 00-3.697 3.596 2.22 2.22 0 00.486 1.477.36.36 0 01.121.416c-.034.138-.121.467-.156.588a.265.265 0 01-.382.19c-1.038-.415-1.527-1.558-1.527-2.862 0-2.135 1.788-4.691 5.365-4.691 2.847 0 4.74 2.083 4.74 4.31 0 2.932-1.633 5.136-4.045 5.136a2.145 2.145 0 01-1.84-.934s-.434 1.736-.52 2.065a6.021 6.021 0 01-.764 1.598c.692.21 1.411.315 2.134.312a7.493 7.493 0 007.497-7.502A7.502 7.502 0 008.526.071L8.525.07z"
+          ></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="icon-search">
+        <path
+          d="M11.048 10.074L14 13.024l-.975.976-2.951-2.952A6.205 6.205 0 010 6.202 6.205 6.205 0 016.203 0a6.205 6.205 0 014.845 10.074zm-1.382-.512a4.808 4.808 0 001.36-3.36 4.823 4.823 0 00-4.823-4.824 4.822 4.822 0 00-4.825 4.825 4.823 4.823 0 004.825 4.824 4.808 4.808 0 003.36-1.361l.103-.104z"
+          ></path>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 13" id="icon-twitter">
+        <path
+          d="M15 1.543a5.875 5.875 0 01-1.768.516A3.263 3.263 0 0014.586.244a5.925 5.925 0 01-1.955.796 3.025 3.025 0 00-1.746-.996 2.913 2.913 0 00-1.954.344 3.206 3.206 0 00-1.353 1.543 3.48 3.48 0 00-.19 2.101 8.318 8.318 0 01-3.514-.995A8.868 8.868 0 011.044.604a3.44 3.44 0 00-.416 1.65c0 1.137.543 2.142 1.368 2.73a2.924 2.924 0 01-1.393-.41v.04c0 .758.246 1.492.696 2.079.45.586 1.076.988 1.773 1.139-.454.13-.93.15-1.391.056a3.287 3.287 0 001.094 1.631 2.958 2.958 0 001.78.648 6.03 6.03 0 01-2.15 1.162c-.782.233-1.6.3-2.405.196A8.318 8.318 0 004.717 13c5.661 0 8.757-4.999 8.757-9.334 0-.141-.004-.284-.01-.424A6.496 6.496 0 0015 1.544z"></path>
+      </symbol>
+    </svg>
+
+    <script src="js/vendor.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

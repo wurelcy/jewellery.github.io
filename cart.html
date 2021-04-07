@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="keywords" content="jewellery, silver, gold, ring, necklaces, earrings, stones, chokers">
+    <meta name="description" content="Jewellery online shop">
+  <title>Add to Cart</title>
+  <link rel="preload" href="fonts/poppins-regular.woff2" as="font">
+    <link rel="preload" href="fonts/cormorantgaramond-bold.woff2" as="font">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+  <body class="page-body">
+      <div class="container">
+        <section class="cart-popup">
+          <a href="index.html"></a>
+          <h2 class="visually-hidden">Added to cart popup</h2>
+          <p>The item was added to your cart</p>
+          <div class="cart-popup__item">
+            <picture>
+              <source type="image/webp" srcset="img/necklace-detail@1x.webp 1x, img/necklace-detail@2x.webp 2x">
+              <!-- 1х: 84px; 2x: 168px -->
+              <img src="img/necklace-detail@1x.jpg" srcset="img/necklace-detail@2x.jpg 2x" alt="Item image" width="84" height="79">
+            </picture>
+            <div class="cart-popup__details">
+              <p>Gold Necklace</p>
+              <p>$ <span>115</span></p>
+            </div>
+            <div class="cart-popup__quanity">
+              <button class="cart-popup__increase"></button>
+              <span>1</span>
+              <button class="cart-popup__derease"></button>
+            </div>
+          </div>
+          <div class="cart-popup__summary">
+            <p>You have <span>1</span> item in the cart</p>
+            <p>Cart subtotal: $<span>115</span></p>
+          </div>
+          <div class="cart-popup__links">
+            <a href="product.html" class="cart-popup__continue">Continue shopping</a>
+            <a href="#" class="cart-popup__to-cart">Checkout</a>
+          </div>
+        </section>
+      </div>
+  </body>
+</html>
